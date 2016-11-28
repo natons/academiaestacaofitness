@@ -1,0 +1,208 @@
+@import url(beyond.min.css);
+@import url(bootstrap.min.css);
+@import url(skins/black.min.css);
+@import url(http://fonts.googleapis.com/css?family=Armata);
+
+
+/*Mudan?as bootstrap*/
+body{
+        font-family: 'Armata', sans-serif !important;
+}
+body:before {
+	background-color: #d2d2d2;
+        font-family: 'Armata', sans-serif !important;
+}
+.page-sidebar{
+	top: 20px;
+	margin-left: -15px;
+}
+
+.page-sidebar .sidebar-menu li:before{
+	background-color: #3b3b41;
+}
+.page-sidebar .sidebar-menu li:not(.open):hover:before{
+	background-color: #fbee02;
+	border: 1px solid black;
+}
+
+.navbar-inner{
+	margin: -1px;
+	background-color: #3b3b41;
+}
+
+.navbar .navbar-inner{
+    top: -1px;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area>li>a .icon{
+	color: #fbee02;
+}
+
+.navbar .sidebar-collapse{
+	left: 196px;
+}
+
+.breadcrumb{
+	background-color: transparent;
+	padding-left: 0px;
+}
+.page-chatbar {
+	width: 272px;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area>li .dropdown-menu.dropdown-notifications li.dropdown-footer{
+	background-color: #3b3b41;
+}
+
+.navbar .sidebar-collapse .collapse-icon{
+	color: #fbee02;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .setting a{
+	color:#fbee02;
+}	
+.navbar .navbar-inner .navbar-header .navbar-account .setting a .icon{
+	color:#fbee02;
+}
+
+.page-sidebar .sidebar-header-wrapper .searchicon{
+	color:#3b3b41;
+}
+
+.icone-topo { 
+	height: 20px !important;
+	margin-top: 6px !important;
+}
+.icone-topo:hover{
+	transform:(10px, 5px);
+}
+
+.accordion.panel-group .panel-heading .accordion-toggle, .accordion.panel-group .panel-heading .accordion-toggle.collapsed:hover{
+    font-size: 14pt;
+}
+
+/*tamanho das imagens na lista de exercic?os*/
+.img-exercicios{
+    width: 317px;
+    height: 330px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.img-exercicios:hover{
+    opacity: 1;
+    border-radius: 20px;
+}
+
+.img-exercicios-geral{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.img-exercicios-geral:hover{
+    opacity: 1;
+    border-radius: 20px;
+}
+
+/*tamanho das imagens na lista de comidas da dieta*/
+.img-dieta{
+    width: 160px !important;
+    height: 160px !important;
+}
+
+/*Corre??o de bug no navegador que n?o apareciam estes caracteres especiais */
+input[type=checkbox]~.text:before, input[type=radio]~.text:before{
+    content: ' ';
+}
+input[type=checkbox]:checked~.text:before, input[type=radio]:checked~.text:before {
+  display: inline-block;
+  background-color: #fbee02 !important;
+}
+.accordion.panel-group .panel-heading .accordion-toggle.collapsed:after{
+    content: ">";
+}
+.accordion.panel-group .panel-heading .accordion-toggle:after{
+    content: ">";
+}
+/*
+lembretes - Bot?o de adicionar e ver todos*/
+.orders-container .orders-footer .adicionar{
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	  width: 37px;
+	  height: 47px;
+	  border-left: 1px solid #e5e5e5;
+	  text-align: center;
+	  padding: 12px;
+}
+.orders-container .orders-footer .adicionar a i{
+	  color:#3b3b41;
+	  margin-left: -11px;
+}
+
+.input-small{
+	width: 124px !important;
+}
+/*fim das mudancas*/
+
+/*
+Cores personalizadas de fundo*/
+
+.bg-preto{
+	background-color: #3b3b41 !important;
+	color:#fff;
+}
+.preto{
+    color:#3b3b41 !important;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+/*
+fim dos cores personalizadas*/
+
+
+/*Legenda em foto caption*/
+.caption {
+  background-color: #474544;
+  color: #fff;
+  text-align: center;
+  padding-left: 76px;
+  padding-right: 76px;
+}
+
+/*perfil de edicao*/
+.perfil{
+	text-align: left;
+	font-size: 14pt;
+	width: 100%;
+
+}
+.perfil tr td img{
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	opacity: 0.8;
+}
+
+.perfil tr td img:hover{
+	opacity: 1;
+	transform: translate(4px, 0px);
+}
+
+
+
+/*
+Configura??o dos inputs*/
+
+.input-senha input{
+	border:0;
+	background-color: transparent;
+	width: 30px;
+}
+
+.input-transparente{
+	border: none !important;
+        background-color: transparent !important;
+}
+/*fim do configura??o de input*/
